@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> My best CV </title>
+    <link rel="shortcut icon" href="cvicon.png" type="image/x-icon">
+
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
@@ -29,66 +31,66 @@
          <div class="main-container">                
                     <img src="photo.JPG" alt="My photo" class="logo">   
             <div class="whoami">
-                    <section class="name" > Aliaksandr Ptsitsa </section>
-                    <section class="profession" > JUNIOR FRONT-END DEVELOPER </section>
+                    <h1 class="name" > Aliaksandr Ptsitsa </h1>
+                    <h2 class="profession" > JUNIOR FRONT-END DEVELOPER </h2>
             </div>    
         </div>
         <div class="second-part"> 
-            <div class="contacts" id="contacts">
-                <section class="title-contacts"> CONTACTS  </section>
-                <section class="city"> Brest,Belarus  </section>
-                <section class="email">  Email:<a href="https:ptenix@gmail.com">ptenix@gmail.com</a></section>
-                <section class="github"> Github:<a href="https://github.com/PteNiX">PteNiX</a></section>
-                <section class="discord">Discord:<a href="https://discord.com/channels/@me">PteN#0851</a> </section>
-            </div>
+            <ul class="contacts" id="contacts">
+                <li class="title-contacts"> CONTACTS  </li>
+                <li class="city">Brest,Belarus</li>
+                <li>Email:<a class="email" href="https://ptenix@gmail.com">ptenix@gmail.com </a></li>
+                <li>Github:<a class="github" href="https://github.com/PteNiX">PteNiX</a></li>
+                <li>Discord:<a class="discord" href="https://discord.com/channels/@me">PteN#0851 </a></li>
+            </ul>
             <div class="summary" id="summary">
-                <section class="title-summary"> SUMMARY  </section>
-                <section class="aboutme"> I like programming so much. But much more i like to do perfomance loading. My goal is to learn a JavaScript, because it is shame on me that I don't know any programming language.I would like to get a good job and make this world better.  </section>
+                <div class="title-summary">  SUMMARY   </div>
+                <div class="aboutme"> I like programming so much. But much more i like to do perfomance loading. My goal is to learn a JavaScript, because it is shame on me that I don't know any programming language.I would like to get a good job and make this world better.  </div>
 
             </div>
         </div>
         <div class="third-part">
-            <div class="skills" id="skills">
-                <section class="title-skills"> SKILLS  </section>
-                <section class="web"> Web-development: HTML5, CSS3, JavaScript </section>
-                <section class="version"> Version control:GIT, Github </section> 
-            </div>
+            <ul class="skills" id="skills">
+                <li class="title-skills"> SKILLS  </li>
+                <li class="web"> Web-development: HTML5, CSS3, JavaScript </li>
+                <li class="version"> Version control:GIT, Github </li> 
+            </ul>
             <div class="code" id="code">
-                <section class="title-code"> CODE  </section>
-                <section class="jscode"> function funequal () {
+                <div class="title-code"> CODE  </div>
+                <div class="jscode"> function funequal () {
                     result=eval(x+z+y);
-                    document.getElementById('in').innerHTML=result;
-                    alert(result);
+                    document.getElementById('in').innerHTML=re;
+                    alert(re);
                     } 
-                </section>
+                </div>
             </div>
         </div>    
 
         <div class="fours-part">
-            <div class="courses" id="courses">
-                <section class="title-courses"> COURSES  </section>
-                <section class="js">  <a href="https://learn.javascript.ru/"> учебник JavaScript </a> </section>
-                <section class="perfomance"> <a href="https://training.by/#!/Training/2957?lang=ru"> Performance Optimization </a> </section> 
-            </div>
+            <ul class="courses" id="courses">
+                <li class="title-courses"> COURSES  </li>
+                <li> <a class="js" href="https://learn.javascript.ru/"> JavaScript </a> </li>
+                <li> <a class="perfomance" href="https://training.by/#!/Training/2957?lang=ru"> Performance Optimization </a> </li> 
+            </ul>
             <div class="projects" id="projects">
-                <section class="title-projects"> PROJECTS  </section>
-                <section class="project"> <a href="https://github.com/PteNiX/rsschool-cv"> My first project</a> 
+                <div class="title-projects"> PROJECTS  </div>
+                <div> <a class="project" href="https://PteNiX.github.io/rsschool-cv/cv"> My first project</a> 
                   
-                </section>
+                </div>
             </div>
         </div>    
 
         <div class="fives-part">
             <div class="education" id="education">
-                <section class="title-education"> EDUCATION  </section>
-                <section class="university"> Brest State University  </section>
+                <div class="title-education"> EDUCATION  </div>
+                <div class="university"> Brest State University  </div>
                 
             </div>
             <div class="english" id="english">
-                <section class="title-english"> ENGLISH  </section>
-                <section class="project"> A2 - Pre-Intermediate </a> 
+                <div class="title-english"> ENGLISH  </div>
+                <div class="en"> A2 - Pre-Intermediate </div>
                   
-                </section>
+                
             </div>
         </div>    
 
@@ -98,6 +100,14 @@
 
     <footer class="footer">
       <nav class="nav">
+          <div class="foot">
+                <div class="year"> © 2022 </div>
+                <div class="namefoot"> <a class="linkgit" href="https://github.com/PteNiX"> Aliaksandr  </a></div>
+                <div class="rsfoot"> <a href="https://rs.school/js/" title="RS School">
+                    <img src="rs.png" alt="Logo" class="loglink"></a>
+                </div>
+
+            </div>
 
       </nav>
     </footer>
