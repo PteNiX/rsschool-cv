@@ -1,3 +1,207 @@
-. stylescv {
+body {
+    font-family: 'Open Sans', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #813d3d; 
+    font-size: 16px;
+    background-color: #fafaf0;
+}
+.header {
+    background-color: #813d3d;
+
+}
+
+
+.main-container {
+    
+    display: flex;
+    flex-wrap: wrap;
+
+
+
+}
+
+
+
+.logo {
+width: 800px;
+height:800px;
+border-radius: 100%;
+margin: 200px 0px 5px 200px;
+ 
+
+}
+.whoami {
+    display:flex;
+    flex-direction: column;
+    margin: 200px 200px 200px 200px;
+    margin-left: auto;
+    
+}
+.name {
+    
+    font-size: 200px;
+    
+   }
+.profession {
+    
+    font-size: 100px;
+   
+    
+}
+.contacts {
+   display: flex;
+   flex-direction: column;
+   font-size: 100px;
+   margin: 200px 200px 200px 200px;
+   width: 50%;
+    
+
+}
+.nav-list {
+    display:flex;
+    flex-direction: row;
+    font-size: 100px;
+    justify-content: flex-end;
+    align-items: center;
+    scroll-behavior: smooth; 
+    list-style: none;
+   
+  
+  }
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  transition: .3s;
+  color: #fafaf0;
+  text-decoration: none;
+
+} 
+
+.title-contacts {
+    font-weight: 800;
+}
+
+.title-summary {
+    font-weight: 800;
+}
+
+
+.second-part {
+    display: flex;
+    flex-direction: row;
+  flex-wrap: wrap;
+    
+}
+
+.summary {
+    display: flex;
+    flex-direction: column;
+    margin: 200px 200px 200px 200px;
+    font-size: 100px;
+    width: 35%;
+    
+ 
+    
+}
+
+.third-part {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    margin: 200px 200px 200px 200px;
+    font-size: 100px;
+    width: 50%;
+ 
+    
+}
+.title-skills {
+    font-weight: 800;
+}
+
+.code {
+    display: flex;
+    flex-direction: column;
+    margin: 200px 200px 200px 200px;
+    font-size: 100px;
+    width: 35%;
+ 
+    
+}
+
+.title-code {
+    font-weight: 800;
+}
+
+.fours-part {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+}
+.courses {
+    display: flex;
+    flex-direction: column;
+    margin: 200px 200px 200px 200px;
+    font-size: 100px;
+    width: 50%;
+
+}
+.title-courses {
+    font-weight: 800;
+}
+
+.title-projects {
+    font-weight: 800;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    margin: 200px 200px 200px 200px;
+    font-size: 100px;
+    width: 35%;
+}
+
+.fives-part {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
+
+.education {
+    display: flex;
+    flex-direction: column;
+    margin: 200px 200px 200px 200px;
+    font-size: 100px;
+    width: 50%;
+}
+
+
+.english {
+    display: flex;
+    flex-direction: column;
+    margin: 200px 200px 200px 200px;
+    font-size: 100px;
+    width: 35%;
+}
+
+.title-education {
+    font-weight: 800;
+}
+
+.title-english {
+    font-weight: 800;
+}
+
+.footer {
+    background-color: #24223b;
 
 }
