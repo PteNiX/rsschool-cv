@@ -9,6 +9,7 @@ body {
     background-color: #fafaf0;
 }
 .header {
+    
     background-color: #813d3d;
 
 }
@@ -18,59 +19,64 @@ body {
     
     display: flex;
     flex-wrap: wrap;
-
-
+    border-bottom: 5px solid #bb8585;
 
 }
 
 
 
 .logo {
-width: 800px;
-height:800px;
+width: 200px;
+height:200px;
 border-radius: 100%;
-margin: 200px 0px 5px 200px;
+margin: 100px 100px 100px 100px;
+
+
+
+
  
 
 }
 .whoami {
     display:flex;
     flex-direction: column;
-    margin: 200px 200px 200px 200px;
+    margin: 100px 100px 100px 100px;
     margin-left: auto;
     
 }
 .name {
     
-    font-size: 200px;
-    
-   }
+    font-size: 50px;
+
+}
+
 .profession {
     
-    font-size: 100px;
+    font-size: 25px;
+    align-items: center;
    
     
 }
 .contacts {
    display: flex;
    flex-direction: column;
-   font-size: 100px;
-   margin: 200px 200px 200px 200px;
-   width: 50%;
+   font-size: 25px;
+   margin: 100px 50px 100px 50px;
+   width: 35%;
     
 
 }
 .nav-list {
     display:flex;
     flex-direction: row;
-    font-size: 100px;
+    font-size: 25px;
     justify-content: flex-end;
     align-items: center;
     scroll-behavior: smooth; 
     list-style: none;
    
   
-  }
+}
 .nav-link {
   padding: 0 20px;
   line-height: 50px;
@@ -82,6 +88,7 @@ margin: 200px 0px 5px 200px;
 
 .title-contacts {
     font-weight: 800;
+    list-style-type:none;
 }
 
 .title-summary {
@@ -99,8 +106,8 @@ margin: 200px 0px 5px 200px;
 .summary {
     display: flex;
     flex-direction: column;
-    margin: 200px 200px 200px 200px;
-    font-size: 100px;
+    margin: 100px 50px 100px 50px;
+    font-size: 25px;
     width: 35%;
     
  
@@ -117,21 +124,22 @@ margin: 200px 0px 5px 200px;
 .skills {
     display: flex;
     flex-direction: column;
-    margin: 200px 200px 200px 200px;
-    font-size: 100px;
-    width: 50%;
+    margin: 100px 50px 100px 50px;
+    font-size: 25px;
+    width: 35%;
  
     
 }
 .title-skills {
     font-weight: 800;
+    list-style-type:none;
 }
 
 .code {
     display: flex;
     flex-direction: column;
-    margin: 200px 200px 200px 200px;
-    font-size: 100px;
+    margin: 100px 50px 100px 50px;
+    font-size: 25px;
     width: 35%;
  
     
@@ -149,13 +157,14 @@ margin: 200px 0px 5px 200px;
 .courses {
     display: flex;
     flex-direction: column;
-    margin: 200px 200px 200px 200px;
-    font-size: 100px;
-    width: 50%;
+    margin: 100px 50px 100px 50px;
+    font-size: 25px;
+    width: 35%;
 
 }
 .title-courses {
     font-weight: 800;
+    list-style-type:none;
 }
 
 .title-projects {
@@ -165,8 +174,8 @@ margin: 200px 0px 5px 200px;
 .projects {
     display: flex;
     flex-direction: column;
-    margin: 200px 200px 200px 200px;
-    font-size: 100px;
+    margin: 100px 50px 100px 50px;
+    font-size: 25px;
     width: 35%;
 }
 
@@ -179,17 +188,17 @@ margin: 200px 0px 5px 200px;
 .education {
     display: flex;
     flex-direction: column;
-    margin: 200px 200px 200px 200px;
-    font-size: 100px;
-    width: 50%;
+    margin: 100px 50px 100px 50px;
+    font-size: 25px;
+    width: 35%;
 }
 
 
 .english {
     display: flex;
     flex-direction: column;
-    margin: 200px 200px 200px 200px;
-    font-size: 100px;
+    margin: 100px 50px 100px 80px;
+    font-size: 25px;
     width: 35%;
 }
 
@@ -202,6 +211,73 @@ margin: 200px 0px 5px 200px;
 }
 
 .footer {
-    background-color: #24223b;
+    background-color: #813d3d;
 
+}
+
+.foot {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    height: 50px;
+    font-size: 25px;
+    color: #fafaf0;
+    margin-top: 3%;
+ 
+  }
+
+  .linkgit {
+
+    color: #fafaf0;
+    text-decoration: none;
+    
+    
+    
+  }
+
+  .loglink {
+    width: 100px;
+    height: 50px;
+    
+   
+  }
+  .year {
+      margin: 100px 50px 150px 80px ;
+  }
+ 
+.namefoot {
+    margin: 100px 50px 150px 80px
+}
+  
+.rsfoot {
+    margin: 100px 50px 130px 80px
+}
+
+.js {
+    text-decoration: none;
+    color: #a1a5b4;
+}
+
+.perfomance {
+    color: #a1a5b4;
+    text-decoration: none;  
+}
+
+.project {
+    color: #a1a5b4;
+    text-decoration: none; 
+}
+
+.email {
+    text-decoration: none; 
+    color: #96a0c5;
+}
+.github{
+    text-decoration: none; 
+    color: #a1a5b4;
+}
+.discord{
+    text-decoration: none;
+    color: #a1a5b4;
 }
