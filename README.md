@@ -1,1 +1,1 @@
-# rsschool-cv
+https://PteNiX.github.io/rsschool-cv/
