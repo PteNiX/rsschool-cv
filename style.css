@@ -94,6 +94,9 @@ margin: 100px 100px 100px 100px;
 .title-summary {
     font-weight: 800;
 }
+.title-projects{
+    list-style-type:none;
+}
 
 
 .second-part {
