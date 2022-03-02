@@ -2,4 +2,5 @@
 # Name: Ptsitsa Aliaksandr
  ## E-mail: ptenix@gmail.com or pt3n@mail.ru
 
-     Before I decided to apply for js-developer I have read two books: R.Savin “тестирование.com” and S.Kulikov “Тестирование программного обеспечения. Базовый курс”.  Besides, I have  finished the course by javaScript here https://learn.javascript.ru/. In addition, I have learned HTML and CSS here https://htmlacademy.ru/. Moreover I everyday improve my English level using paper books and some mobile application such as dualingo etc. At home I have five various devices which working on ios, android and windows. Thank you!!!
+SUMMARY
+I like programming so much. My goal is to learn a JavaScript, because it is shame on me that I don't know any programming language.I would like to get a good job and make this world better.
