@@ -86,6 +86,11 @@ margin: 100px 100px 100px 100px;
 
 } 
 
+.nav-link:hover {
+
+    color:rgb(253, 191, 139);
+}
+
 .title-contacts {
     font-weight: 800;
     list-style-type:none;
@@ -283,4 +288,30 @@ margin: 100px 100px 100px 100px;
 .discord{
     text-decoration: none;
     color: #a1a5b4;
+}
+
+
+@media  (max-device-width: 900px) {
+
+    .nav-link {
+        padding: 0 20px;
+        line-height: 35px;
+        transition: .3s;
+        color: #fafaf0;
+        text-decoration: none;
+      
+      } 
+
+      .nav-list {
+        display:flex;
+        flex-direction: row;
+        font-size: 15px;
+        justify-content: flex-end;
+        align-items: center;
+        scroll-behavior: smooth; 
+        list-style: none;
+       
+      
+    }
+
 }
