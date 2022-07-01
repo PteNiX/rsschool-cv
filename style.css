@@ -258,7 +258,7 @@ body {
   color: #a1a5b4;
 }
 
-@media (min-width: 750px) and (max-width: 1000px) {
+@media (min-width: 755px) and (max-width: 1000px) {
   .nav-link {
     padding: 0 20px;
     line-height: 35px;
@@ -278,7 +278,7 @@ body {
   }
 }
 
-@media all and (max-width: 749px) {
+@media all and (max-width: 754px) {
   .nav-link {
     display: none;
     flex-direction: row;
